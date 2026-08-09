@@ -4,11 +4,10 @@ import "./globals.css";
 
 export const metadata = {
   title: "Note Passer",
-  description: "Example note app"
-}
+  description: "Example note app",
+};
 
-export default async function RootLayout({ children })
-{
+export default async function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className="doodle">
@@ -20,5 +19,5 @@ export default async function RootLayout({ children })
         {children}
       </body>
     </html>
-  )
+  );
 }
